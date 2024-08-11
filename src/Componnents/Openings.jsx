@@ -29,7 +29,7 @@ function Openings() {
             <img
               src={opening.imgSrc}
               alt={opening.name}
-              className="h-32 w-full object-cover rounded-t-lg mb-4"
+              className=" w-full bg-full rounded-t-lg mb-4"
             />
             <h2 className="text-xl font-semibold text-gray-800 dark:text-white">{opening.name}</h2>
             <p className="text-gray-600 dark:text-gray-300 mt-2">{opening.description}</p>
