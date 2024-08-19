@@ -6,6 +6,7 @@ import Openings from './Componnents/Openings.jsx'
 import Puzzle from './Componnents/Puzzel.jsx'
 import Tournaments from './Componnents/Tournaments.jsx'
 import About from './Componnents/About.jsx'
+import GameUI from './Componnents/GameUi.jsx'
 
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/openings' element={<Openings/>}></Route>
       <Route path='/puzzel' element={<Puzzle/>}></Route>
       <Route path='/tournaments' element={<Tournaments/>}></Route>
+      <Route path='/games' element={<GameUI/>}></Route>
     </Routes>
       </div>
     </Router>
